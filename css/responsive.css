@@ -1,0 +1,585 @@
+@media (max-width: 1399.98px) {
+    .services-netboard-card-all {
+        width: 345px;
+    }
+    .countries-select-card .btn-small {
+        padding: 7px 20px;
+    }
+    .popular-collages-det-sec .owl-nav {
+        top: -163px;
+    }
+    .all-image-gallery {
+        width: 352px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .navbar-expand-lg .navbar-nav {
+        gap: 15px;
+        margin-left: 8px;
+    }
+    .topHeader-left {
+        width: 70%;
+    }
+    .process-simplified-card-all {
+        width: 30%;
+    }
+    .add-slide-right {
+        margin-left: -86px;
+    }
+    .services-netboard-card-all {
+        width: 285px;
+    }
+    .form-right form {
+        padding: 30px 34px;
+        width: 369px;
+    }
+    .form-sec {
+        padding-block: 75px;
+    }
+    footer {
+        margin-top: 0;
+    }
+    .form-num .call {
+        font-size: 23px;
+    }
+    .form-num {
+        gap: 15px;
+    }
+    .form-num .call span img {
+        width: 28px;
+        margin-right: 7px;
+    }
+    .form-left {
+        width: 100%;
+    }
+    .footer-para {
+        width: 100%;
+    }
+    .navbar-nav .nav-item a {
+        font-size: 17px;
+    }
+    .about-who-left {
+        width: 435px;
+    }
+    .our-vision-img {
+        width: 290px;
+    }
+    .our-vision-content .row .col-sm-12{
+        align-items: center;
+        display: flex;
+    }
+    .nav-item.dropdown .nav-link {
+        background-position-y: 16px;
+    }
+    .countries-select-btn {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .countries-select-card {
+        gap: 20px;
+    }
+    .popular-collages-det-sec .owl-nav {
+        top: -134px;
+    }
+    .popular-collages-det-sec .countries-select-btn {
+        margin-top: 32px;
+    }
+    .content-Admission .apply-form input:nth-child(1), .content-Admission .apply-form input:nth-child(2){
+        width: 100%;
+    }
+    .all-image-gallery {
+        width: 295px;
+    }
+    .gallery-card {
+        gap: 25px;
+    }
+    .popular-countries-select.contact-pg {
+        margin-bottom: 27px;
+    }
+    .contact-card-all:nth-child(odd), .contact-card-all:nth-child(even){
+        height: 200px;
+    }
+    .content-contact p, .content-contact a {
+        font-size: 15px;
+    }
+    .content-image {
+        width: 27px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    
+    .form-wrapper {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+    .testimonials-card {
+            width: 600px;
+            padding: 33px;
+            gap: 30px;
+            margin-top: 35px;
+    }
+    .owl-next, .owl-prev {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .student-testimonials-sec .owl-next span, .student-testimonials-sec .owl-prev span {
+        font-size: 28px;
+        background-size: 8px;
+    }
+    .student-testimonials-sec .owl-nav {
+        margin-top: 25px;
+    }
+    .topHeader-worapper ul li a {
+        font-size: 13px;
+    }
+    .topHeader-worapper .dropdown-toggle {
+        font-size: 13px;
+    }
+    .topHeader-worapper .dropdown-toggle {
+        background-size: 12px;
+        padding-right: 17px;
+    }
+    .topHeader-left {
+        width: 100%;
+    }
+    .topHeader-left ul {
+        gap: 18px;
+    }
+    .topHeader-left ul li a img {
+        margin-right: 2px;
+    }
+    .navbar {
+        height: 60px;
+    }
+    .logo-wrapper {
+        margin-top: 0;
+        width: 52px;
+        position: relative;
+        top: 20px;
+        margin-left: 12px;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    #navbarSupportedContent{
+        background-color: white;
+    }
+    .about-who-sec {
+        padding-block: 50px;
+    }
+    .our-vision-content {
+        margin-top: 39px;
+    }
+    .navbar-expand-lg .navbar-nav {
+        gap: 0;
+        margin-top: 2px;
+        padding: 12px;
+        margin-left: 0;
+    }
+    .navbar .container {
+        max-width: 100%;
+        padding: 0;
+    }
+    .navbar-toggler{
+        margin-right: 12px;
+    }
+    .banner-image{
+        width: 0;
+        margin: 0 auto;
+    }
+    .add-effect-one.banner-image{
+        width: 330px;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    .banner-content {
+        margin-top: 76px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .banner-content a{
+        margin-top: 30px;
+    }
+    .popular-countries-sec {
+        padding-block: 50px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    .process-simplified-sec {
+        padding-block: 50px;
+    }
+    .process-simplified-card-all {
+        width: 47%;
+        height: 166px;
+    }
+    .process-simplified-card-all h3 {
+        font-size: 19px;
+    }
+    .process-simplified-card-img {
+        width: 100px;
+        height: 100px;
+    }
+    .our-achivement-sec {
+        padding-block: 50px;
+    }
+    .our-achivement-wrapper {
+        flex-direction: column;
+    }
+    .our-achivement-right-img {
+        width: 280px;
+        position: initial;
+    }
+    .our-achivement-left {
+        width: 100%;
+        justify-content: center;
+    }
+    .our-achivement-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .add-slide-right {
+        margin-left: 0;
+        position: relative;
+    }
+    .services-netboard {
+        padding-block: 50px;
+    }
+    .services-netboard-card-top {
+        width: 159px;
+        height: 112px;
+    }
+    .services-netboard-card-img {
+        width: 100px;
+        height: 99px;
+        padding: 19px;
+    }
+    .services-netboard-card-btm h3 {
+        font-size: 20px;
+    }
+    .student-testimonials-sec {
+        padding-block: 50px;
+    }
+    .testimonials-card p {
+        font-size: 18px;
+    }
+    .testimonials-card-name h3 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .testimonials-card-img {
+        width: 75px;
+        height: 75px;
+    }
+    .form-sec {
+        padding-block: 40px;
+    }
+    .form-sec p {
+        padding-bottom: 25px;
+    }
+    .form-sec h3 {
+        font-size: 20px;
+    }
+    .form-num .call {
+        font-size: 18px;
+    }
+    .form-num .call span img {
+        width: 20px;
+    }
+    .btn {
+        padding: 9px 29px;
+    }
+    .form-num {
+        margin-top: 25px;
+    }
+    .footer-links h4 {
+        font-size: 21px;
+    }
+    .footer-links {
+        gap: 10px;
+    }
+    .popular-card-content-text h4 {
+        font-size: 16px;
+    }
+    .popular-card-content-img {
+        width: 45px;
+    }
+    .btn.banner-apply{
+        width: 100%;
+    }
+    #navbarSupportedContent form {
+        padding: 16px 12px 12px 12px;
+    }
+    .NewNav #search-top {
+        width: 70%;
+    }
+    .about-who-left {
+        margin: 0 auto;
+    }
+    .about-who-sec .row {
+        gap: 40px;
+    }
+    .form-right form {
+        gap: 15px;
+    }
+    .countries-select-card-all {
+        width: 48%;
+    }
+    .slid-set-wraper .owl-next span {
+        margin-right: -80px;
+    }
+    .slid-set-wraper .owl-prev span {
+        margin-left: -80px;
+    }
+    .popular-det-card {
+        margin-top: 38px;
+    }
+    .popular-countries-select {
+        padding-block: 50px;
+    }
+    .popular-collages-det-sec {
+        padding-block: 50px;
+    }
+    .content-Admission .apply-form input:nth-child(6) {
+        padding: 9px 29px;
+    }
+    .all-image-gallery {
+    border-radius: 35px 35px 35px 0;
+}
+.contact-card-all:nth-child(odd), .contact-card-all:nth-child(even) {
+    width: 42%;
+}
+.contact-page-form-left {
+    padding-right: 40px;
+}
+main {
+    margin-top: 100px;
+}
+    .banner-sec {
+        height: 100%;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    .topHeader-right ul {
+        margin-right: 12px;
+    }
+    .topHeader-worapper .dropdown-toggle {
+        padding-left: 12px;
+    }
+    .topHeader-left ul li a img {
+        width: 20px;
+        height: 20px;
+        padding: 4px;
+    }
+    .topHeader-right{
+        display: none;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .banner-content a {
+        margin-top: 5px;
+    }
+    .process-simplified-card-all {
+        width: 46%;
+        padding: 49px 30px 20px 30px;
+        height: 140px;
+    }
+    .process-simplified-card-img {
+        width: 80px;
+        height: 80px;
+        padding: 20px;
+    }
+    .our-achivement-left-all {
+        width: 48%;
+    }
+    .our-achivement-left-all h3 {
+        font-size: 26px;
+    }
+    .our-achivement-left-all h4 {
+        font-size: 13px;
+    }
+    .testimonials-card {
+        width: 500px;
+    }
+    .form-right form input {
+        padding-left: 20px;
+    }
+    .form-right form textarea {
+        padding: 20px 20px;
+    }
+    .footer-links a img {
+        width: 25px;
+        height: 24px;
+        padding: 6px;
+        margin-right: 3px;
+    }
+    .popular-card-wrapper {
+        flex-direction: column;
+    }
+    .popular-countries-sec{
+        background-image: none !important;
+    }
+    .search-icon {
+        height: initial;
+        padding: 10px;
+    }
+    .next-search {
+        width: 40px;
+    }
+    .next-search img {
+        margin-left: 11px;
+    }
+    .our-vision-content .row .col-sm-12 {
+        justify-content: center;
+    }
+    .our-vision-conten-right{
+        margin-top: 40px;
+    }
+    .countries-select-card-all {
+        width: 72%;
+    }
+    .popular-collages-det-sec .owl-nav {
+        top: -176px;
+    }
+    .all-image-gallery {
+        width: 245px;
+    }
+    .gallery-card {
+        margin-top: 30px;
+    }
+    .contact-page-form {
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .contact-page-form-left {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .testimonials-card {
+        width: 280px;
+        padding: 16px;
+        gap: 0px;
+    }
+    .form-right form {
+        padding: 17px 15px;
+        width: 280px;
+    }
+    .banner-image{
+        width: 0;
+        margin: 0 auto;
+    }
+    .add-effect-one.banner-image{
+        width: 256px;
+    }
+    .topHeader-left ul {
+        align-items: start;
+        flex-direction: column;
+        gap: 0;
+    }
+    .process-simplified-card-all {
+        width: 90%;
+    }
+    .our-achivement-left-all {
+        width: 100%;
+    }
+    .services-netboard-wrapper {
+        margin-top: 50px;
+    }
+    .testimonials-card-dts {
+        align-items: start;
+        flex-direction: column-reverse;
+    }
+    .testimonials-card-img {
+        width: 40px;
+        height: 40px;
+        margin-top: 3px;
+    }
+    .form-num {
+        align-items: start;
+        flex-direction: column;
+        margin-top: 12px;
+    }
+    .form-right form a {
+        margin-top: 0;
+    }
+    footer {
+        padding-block: 78px 0;
+    }
+    .footer-logo {
+        top: -22px;
+        width: 67px;
+    }
+    .search-icon {
+        padding: 8px;
+    }
+    .about-who-left {
+        width: 230px;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    .form-sec h2{
+            font-size: 25px;
+    }
+    .our-vision-conten-right ul {
+        max-width: 100%;
+    }
+    .our-object {
+        padding: 25px;
+        border-radius: 18px;
+        margin-top: 40px;
+    }
+    .countries-select-card-all {
+        width: 100%;
+    }
+    .popular-det-img {
+        border-radius: 14px;
+    }
+    .popular-collages-det-sec .countries-select-btn {
+        margin-top: 25px;
+        gap: 10px;
+    }
+    .popular-collages-det-sec .owl-nav {
+        top: 0;
+        margin: 20px 0;
+    }
+    .popular-det-slid {
+        border-radius: 10px;
+    }
+    .slid-set-wraper {
+        margin-top: 26px;
+    }
+    .content-Admission {
+        padding: 22px;
+    }
+    .slid-set-wraper .owl-dots{
+        display: none;
+    }
+    .popular-collages-det-sec .row .col-sm-12:last-child{
+        padding: 0 12px !important;
+    }
+    .contact-card-all:nth-child(odd), .contact-card-all:nth-child(even) {
+        width: 256px;
+    }
+    .topHeader-left ul li a img {
+        width: 18px;
+        height: 18px;
+        padding: 3px;
+    }
+    .banner-content h3 {
+        margin-bottom: 19px;
+    }
+}

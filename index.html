@@ -1,11 +1,603 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netboard Educare</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+  <link href="./css/responsive.css" rel="stylesheet">
 </head>
+
 <body>
-    
+  <header>
+    <div class="header-top">
+      <div class="container">
+        <div class="topHeader-worapper">
+          <div class="topHeader-left">
+            <ul>
+              <li><a href="#"><img src="./images/phone.svg" alt=""> +(91) 8250876647</a></li>
+              <li><a href="#"><img src="./images/email.svg" alt=""> abcdefghijklmn@gmail.com</a></li>
+            </ul>
+          </div>
+          <div class="topHeader-right">
+            <ul>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Career</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              En
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">English</a></li>
+              <li><a class="dropdown-item" href="#">Bengali</a></li>
+              <li><a class="dropdown-item" href="#">Hindi</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <div class="logo-wrapper">
+          <a href="">
+            <img src="./images/logo.svg" alt="">
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="about-us.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Gallery
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item text-white" href="">Gallery 1</a></li>
+                <li><a class="dropdown-item text-white" href="">Gallery 2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Apply</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" id="search-top" aria-label="Search">
+            <div class="cross-icon" onclick="showNav()"><img src="./images/cross.png"></div>
+            <div class="next-search"><img src="./images/white-search.svg"></div>
+            <div class="search-icon" onclick="bigImg()"><img src="./images/search.png"></div>
+            <a href="#" class="btn banner-apply" type="button">Enquire Now</a>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- Banner section start  -->
+    <section class="banner-sec">
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-12 col-sm-12">
+            <div class="banner-content">
+              <h3>Lorem Ipsum has been the industry's standard</h3>
+              <h1>Lorem Ipsum has been the <span>Been industry</span></h1>
+              <p>Lorem Ipsum has been the industry's standard dummy Lorem Ipsum has been the industry's standard dummy Lorem Ipsum has been the industry's standard dummy Lorem Ipsum has been the industry's standard dummy </p>
+              <a href="#" class="btn" type="button">Apply Now</a>
+            </div>
+          </div>
+          <div class="col-xxl-6 col-xl-5 col-lg-4 col-md-12 col-sm-12">
+            <div class="banner-image">
+              <img src="./images/bannerOne.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Banner section end -->
+    <!-- Popular countries start -->
+    <section class="popular-countries-sec">
+      <div class="container">
+        <div class="heading-two">
+          <h2>Lorem Ipsum has been <span class="add-blue-one"> standard dummy </span></h2>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempus </p>
+        <div class="popular-card">
+          <diV class="popular-card-wrapper">
+            <a href="#">
+              <div class="popular-card-all">
+                <div class="popular-card-img">
+                  <img src="./images/card-1.jpg">
+                </div>
+                <div class="popular-card-content">
+                  <div class="popular-card-content-img">
+                    <img src="./images/rec.png">
+                  </div>
+                  <div class="popular-card-content-text">
+                    <h4>LOREM IPSUM</h4>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="popular-card-all">
+                <div class="popular-card-img">
+                  <img src="./images/card-1.jpg">
+                </div>
+                <div class="popular-card-content">
+                  <div class="popular-card-content-img">
+                    <img src="./images/rec.png">
+                  </div>
+                  <div class="popular-card-content-text">
+                    <h4>LOREM IPSUM</h4>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </diV>
+          <diV class="popular-card-wrapper">
+            <a href="#">
+              <div class="popular-card-all">
+                <div class="popular-card-img">
+                  <img src="./images/card-1.jpg">
+                </div>
+                <div class="popular-card-content">
+                  <div class="popular-card-content-img">
+                    <img src="./images/rec.png">
+                  </div>
+                  <div class="popular-card-content-text">
+                    <h4>LOREM IPSUM</h4>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="popular-card-all">
+                <div class="popular-card-img">
+                  <img src="./images/card-1.jpg">
+                </div>
+                <div class="popular-card-content">
+                  <div class="popular-card-content-img">
+                    <img src="./images/rec.png">
+                  </div>
+                  <div class="popular-card-content-text">
+                    <h4>LOREM IPSUM</h4>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </diV>
+          <diV class="popular-card-wrapper">
+            <a href="#">
+              <div class="popular-card-all">
+                <div class="popular-card-img">
+                  <img src="./images/card-1.jpg">
+                </div>
+                <div class="popular-card-content">
+                  <div class="popular-card-content-img">
+                    <img src="./images/rec.png">
+                  </div>
+                  <div class="popular-card-content-text">
+                    <h4>LOREM IPSUM</h4>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="popular-card-all">
+                <div class="popular-card-img">
+                  <img src="./images/card-1.jpg">
+                </div>
+                <div class="popular-card-content">
+                  <div class="popular-card-content-img">
+                    <img src="./images/rec.png">
+                  </div>
+                  <div class="popular-card-content-text">
+                    <h4>LOREM IPSUM</h4>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </diV>
+          <diV class="popular-card-wrapper">
+            <a href="#">
+              <div class="popular-card-all">
+                <div class="popular-card-img">
+                  <img src="./images/card-1.jpg">
+                </div>
+                <div class="popular-card-content">
+                  <div class="popular-card-content-img">
+                    <img src="./images/rec.png">
+                  </div>
+                  <div class="popular-card-content-text">
+                    <h4>LOREM IPSUM</h4>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </diV>
+        </div>
+      </div>
+    </section>
+    <!-- Popular countries end -->
+    <!-- Process simplified start -->
+    <section class="process-simplified-sec">
+      <div class="container">
+        <div class="heading-two">
+          <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempus </p>
+        <div class="process-simplified-card">
+          <div class="process-simplified-card-all">
+            <h3>Lorem ipsum dolor, sit ametg</h3>
+            <div class="process-simplified-card-img">
+              <img src="./images/user.png">
+            </div>
+          </div>
+          <div class="process-simplified-card-all">
+            <h3>Lorem ipsum dolor, sit ametg</h3>
+            <div class="process-simplified-card-img">
+              <img src="./images/user.png">
+            </div>
+          </div>
+          <div class="process-simplified-card-all">
+            <h3>Lorem ipsum dolor, sit ametg</h3>
+            <div class="process-simplified-card-img">
+              <img src="./images/user.png">
+            </div>
+          </div>
+          <div class="process-simplified-card-all">
+            <h3>Lorem ipsum dolor, sit ametg</h3>
+            <div class="process-simplified-card-img">
+              <img src="./images/user.png">
+            </div>
+          </div>
+          <div class="process-simplified-card-all">
+            <h3>Lorem ipsum dolor, sit ametg</h3>
+            <div class="process-simplified-card-img">
+              <img src="./images/user.png">
+            </div>
+          </div>
+          <div class="process-simplified-card-all">
+            <h3>Lorem ipsum dolor, sit ametg</h3>
+            <div class="process-simplified-card-img">
+              <img src="./images/user.png">
+            </div>
+          </div>
+          <div class="process-simplified-card-all">
+            <h3>Lorem ipsum dolor, sit ametg</h3>
+            <div class="process-simplified-card-img">
+              <img src="./images/user.png">
+            </div>
+          </div>
+          <div class="process-simplified-card-all">
+            <h3>Lorem ipsum dolor, sit ametg</h3>
+            <div class="process-simplified-card-img">
+              <img src="./images/user.png">
+            </div>
+          </div>
+          <div class="process-simplified-card-all">
+            <h3>Lorem ipsum dolor, sit ametg</h3>
+            <div class="process-simplified-card-img">
+              <img src="./images/user.png">
+            </div>
+          </div>
+          <div class="process-simplified-card-all">
+            <h3>Lorem ipsum dolor, sit ametg</h3>
+            <div class="process-simplified-card-img">
+              <img src="./images/user.png">
+            </div>
+          </div>
+          <div class="process-simplified-card-all">
+            <h3>Lorem ipsum dolor, sit ametg</h3>
+            <div class="process-simplified-card-img">
+              <img src="./images/user.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Process simplified end -->
+    <!-- Our achivement start -->
+    <section class="our-achivement-sec" >
+      <div class="container">
+        <div class="heading-two">
+          <h2>Lorem <span class="add-blue-three">lorem sits</span></h2>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur</p>
+        <div class="our-achivement-wrapper">
+          <div class="our-achivement-left">
+            <div class="our-achivement-left-all">
+              <h3><span>10</span> YEARS +</h3>
+            </div>
+            <div class="our-achivement-left-all">
+              <h3><span>8</span> Lorem</h3>
+            </div>
+            <div class="our-achivement-left-all">
+              <h3>Lorem ipsum dolor</h3>
+            </div>
+            <div class="our-achivement-left-all">
+              <h3><span>5000</span> +</h3>
+            </div>
+            <div class="our-achivement-left-all">
+              <h3><span>8</span> +</h3>
+            </div>
+            <div class="our-achivement-left-all">
+              <h3> <span>700</span> +</h3>
+            </div>
+          </div>
+          <div class="our-achivement-right">
+            <div class="our-achivement-right-img" id="achiveImg">
+              <img src="./images/achive-1.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our achivement end -->
+    <!-- Services at Netboard Educare start -->
+    <section class="services-netboard">
+      <div class="container">
+        <div class="heading-two">
+          <h2>Lorem. <span class="add-blue-four">Lorem ipsum</span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempusq</p>
+        </div>
+        <div class="services-netboard-wrapper">
+          <div class="services-netboard-card-all">
+            <div class="services-netboard-card-top">
+              <div class="services-netboard-card-img">
+                <img src="./images/user.png">
+              </div>
+            </div>
+            <div class="services-netboard-card-btm">
+              <h3>services-netboard-card-top</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text.</p>
+            </div>
+          </div>
+          <div class="services-netboard-card-all">
+            <div class="services-netboard-card-top">
+              <div class="services-netboard-card-img">
+                <img src="./images/user.png">
+              </div>
+            </div>
+            <div class="services-netboard-card-btm">
+              <h3>services-netboard-card-top</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text.</p>
+            </div>
+          </div>
+          <div class="services-netboard-card-all">
+            <div class="services-netboard-card-top">
+              <div class="services-netboard-card-img">
+                <img src="./images/user.png">
+              </div>
+            </div>
+            <div class="services-netboard-card-btm">
+              <h3>services-netboard-card-top</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text.</p>
+            </div>
+          </div>
+          <div class="services-netboard-card-all">
+            <div class="services-netboard-card-top">
+              <div class="services-netboard-card-img">
+                <img src="./images/user.png">
+              </div>
+            </div>
+            <div class="services-netboard-card-btm">
+              <h3>services-netboard-card-top</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text.</p>
+            </div>
+          </div>
+          <div class="services-netboard-card-all">
+            <div class="services-netboard-card-top">
+              <div class="services-netboard-card-img">
+                <img src="./images/user.png">
+              </div>
+            </div>
+            <div class="services-netboard-card-btm">
+              <h3>services-netboard-card-top</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text.</p>
+            </div>
+          </div>
+          <div class="services-netboard-card-all">
+            <div class="services-netboard-card-top">
+              <div class="services-netboard-card-img">
+                <img src="./images/user.png">
+              </div>
+            </div>
+            <div class="services-netboard-card-btm">
+              <h3>services-netboard-card-top</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text.</p>
+            </div>
+          </div>
+          <div class="services-netboard-card-all">
+            <div class="services-netboard-card-top">
+              <div class="services-netboard-card-img">
+                <img src="./images/user.png">
+              </div>
+            </div>
+            <div class="services-netboard-card-btm">
+              <h3>services-netboard-card-top</h3>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services at Netboard Educare end -->
+    <!-- Our student testimonials start -->
+    <section class="student-testimonials-sec" style="background-image: url(./images/testimonial-bg.png);">
+      <div class="container">
+        <div class="heading-two">
+          <h2>Lorem. <span class="add-blue-four">Lorem ipsum</span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempusq</p>
+        </div>
+        <div class="owl-carousel owl-theme slide-one">
+          <div class="item">
+            <div class="testimonials-card">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id elit aliquet massa tincidunt
+                feugiat. In hac habitasse platea dictumst. Curabitur sagittis neque finibus luctus porttitor.</p>
+              <div class="testimonials-card-dts">
+                <div class="testimonials-card-name">
+                  <h3>Arijit sarkar</h3>
+                  <p>abck collage stst</p>
+                </div>
+                <div class="testimonials-card-img">
+                  <img src="./images/text.png">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonials-card">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id elit aliquet massa tincidunt
+                feugiat. In hac habitasse platea dictumst. Curabitur sagittis neque finibus luctus porttitor.</p>
+              <div class="testimonials-card-dts">
+                <div class="testimonials-card-name">
+                  <h3>Arijit sarkar</h3>
+                  <p>abck collage stst</p>
+                </div>
+                <div class="testimonials-card-img">
+                  <img src="./images/text.png">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonials-card">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id elit aliquet massa tincidunt
+                feugiat. In hac habitasse platea dictumst. Curabitur sagittis neque finibus luctus porttitor.</p>
+              <div class="testimonials-card-dts">
+                <div class="testimonials-card-name">
+                  <h3>Arijit sarkar</h3>
+                  <p>abck collage stst</p>
+                </div>
+                <div class="testimonials-card-img">
+                  <img src="./images/text.png">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our student testimonials end -->
+    <!-- form section start -->
+    <section class="form-sec">
+      <div class="container">
+        <div class="form-wrapper">
+          <div class="form-left">
+            <div class="heading-two">
+              <h2>Career Counselling with us?</h2>
+              <p>We offer world-class Guidance in MBBS ADMISSION and 100% support for MBBS ADMISSION</p>
+              <h3>WANT TO KNOW MORE ABOUT MBBS IN ABROAD?</h3>
+              <h4>Leave us your contact details here!</h4>
+            </div>
+            <div class="form-num">
+              <a href="tel:222" class="call"><span><img src="./images/call.svg"></span> +91 9614910910</a>
+              <a href="#" class="btn btn-white" type="button">Enquire Now</a>
+            </div>
+          </div>
+          <div class="form-right">
+            <form>
+              <input class="inp" type="text" placeholder="Name">
+              <input class="inp" type="text" placeholder="Email">
+              <input class="inp" type="text" placeholder="Phone">
+              <textarea placeholder="Course Interested For.."></textarea>
+              <a href="#" class="btn" type="button">Submit</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- form section end -->
+  </main>
+  <footer style="background-image: url(./images/footer-bg.png);">
+    <div class="container">
+      <div class="footer-logo">
+        <img src="./images/logo.svg">
+      </div>
+      <div class="footer-para">
+        <p>Sed elit ante, varius et elit in, sagittis dapibus odio. Cras lacinia, sem ut tincidunt tempus, diam ex
+          aliquam felis, mollis ornare risus neque nec enim.Sed elit ante, varius et elit in, sagittis dapibus odio.
+          Cras lacinia, sem ut tincidunt tempus, diam ex aliquam felis, mollis ornare .</p>
+      </div>
+      <div class="row">
+        <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6">
+          <div class="footer-links">
+            <a href="#"><img src="./images/call.svg"> 202-449-9780</a>
+            <a href="#"><img src="./images/email-white.svg"> admin@netboardeducare.org</a>
+            <a href="#"><img src="./images/earth.svg"> www.netboardeducare.org</a>
+          </div>
+        </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6">
+          <div class="footer-links">
+            <h4>Information</h4>
+            <div class="all-footer-links">
+              <a href="#">Home</a>
+              <a href="#">Gallery</a>
+              <a href="#">About</a>
+              <a href="#">Video</a>
+              <a href="#">Services</a>
+              <a href="#">Contact</a>
+              <a href="#">Admission</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6">
+          <div class="footer-links">
+            <h4>Countries</h4>
+            <div class="all-footer-links">
+              <a href="#">India</a>
+              <a href="#">Kyrgyzstan</a>
+              <a href="#">Bangladesh</a>
+              <a href="#">Kazakhstan</a>
+              <a href="#">Nepal</a>
+              <a href="#">Georgia</a>
+              <a href="#">Russia</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6">
+          <div class="footer-links">
+            <h4>Other Links</h4>
+            <div class="all-footer-links">
+              <a href="#">Legal Information</a>
+              <a href="#">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-footer">
+        <p>Copyright © 2024. netboard educare. All rights reserved</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
 </body>
+
 </html>
